@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MegatronPlayer" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/brand_gold</item>
+        <item name="android:windowBackground">@color/brand_background</item>
+        <item name="android:windowSplashScreenBackground">@color/brand_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/splash_branding</item>
+    </style>
+    <!-- MediaRouter reads AppCompat colorPrimary/colorBackground during construction. -->
+    <style name="Theme.MegatronCast" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#222527</item>
+        <item name="colorPrimaryDark">#17191B</item>
+        <item name="colorAccent">#E6BF7A</item>
+        <item name="colorControlNormal">#F3F1EB</item>
+        <item name="android:colorBackground">#222527</item>
+        <item name="android:windowBackground">#222527</item>
+    </style>
+    <style name="PlayerToolButton" parent="ExoStyledControls.Button.Bottom">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:tint">#FFFFFF</item>
+    </style>
+</resources>

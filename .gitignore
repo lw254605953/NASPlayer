@@ -1,0 +1,47 @@
+# Local tools, credentials, signing material and generated files
+.gradle/
+.kotlin/
+.idea/
+.gstack/
+.codegraph/
+**/build/
+local.properties
+*.iml
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+!.env.example
+*.apk
+*.aab
+*.apks
+*.idsig
+*.sha256
+*.zip
+*.log
+*.mpbackup
+*.db
+*.db-*
+.DS_Store
+
+# Private development records, media, SDKs and device data
+/_process/
+/on-quality/
+/NASPlayer品牌与上架材料/
+/final.txt
+/AGENTS.md
+/MEMORY.md
+/memory/
+/*.html
+/*.md
+!/README.md
+!/NOTICE.md
+!/CONTRIBUTING.md
+!/SECURITY.md
+
+# Recreated from source by scripts/build-ffmpeg-android.sh
+/.native-build/
+/decoder-ffmpeg/src/main/jni/ffmpeg
+/decoder-ffmpeg/src/main/jniLibs/
